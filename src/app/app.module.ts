@@ -7,6 +7,8 @@ import { ViewEncapsulationComponent } from './view-encapsulation/view-encapsulat
 import { TopComponent } from './view-encapsulation/top/top.component';
 import { BottomComponent } from './view-encapsulation/bottom/bottom.component';
 import { ObservablePromiseComponent } from './observable-promise/observable-promise.component';
+import { DataBindingComponent } from './data-binding/data-binding.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -14,11 +16,13 @@ import { ObservablePromiseComponent } from './observable-promise/observable-prom
     ViewEncapsulationComponent,
     TopComponent,
     BottomComponent,
-    ObservablePromiseComponent
+    ObservablePromiseComponent,
+    DataBindingComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
