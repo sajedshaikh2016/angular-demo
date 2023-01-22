@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { ViewEncapsulationComponent } from './view-encapsulation/view-encapsulation.component';
 import { TopComponent } from './view-encapsulation/top/top.component';
 import { BottomComponent } from './view-encapsulation/bottom/bottom.component';
+import { ObservablePromiseComponent } from './observable-promise/observable-promise.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ViewEncapsulationComponent,
     TopComponent,
-    BottomComponent
+    BottomComponent,
+    ObservablePromiseComponent
   ],
   imports: [
     BrowserModule,
